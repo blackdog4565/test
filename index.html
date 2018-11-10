@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -13,164 +14,221 @@
     <div class="inner">
         <header class="header">
             <nav class="nav">
-                <ul class="flex-row nav-ul">
-                    <li class="menu">
-                        <img src="img/nav-rec.png" alt="" srcset="" width="70" height="59">
+                <ul class="nav__ul flex-row nav-ul">
+                    <li class="menu nav__li">
+                        <div class="menu__img"></div>
                         <div class="menu-hid">
                             <ul class="">
-                                <li>
-                                    <a href="#">Первый пункт меню</a>
+                                <li class="menu-hid__li nav__li">
+                                    <a class="menu-hid__a" href="#">Первый пункт меню</a>
                                 </li>
-                                <li>
-                                    <a href="#">Активный пункт меню</a>
+                                <li class="menu-hid__li nav__li">
+                                    <a class="menu-hid__a" href="#">Активный пункт меню</a>
                                 </li>
-                                <li>
-                                    <a href="#">Пункт меню</a>
+                                <li class="menu-hid__li nav__li">
+                                    <a class="menu-hid__a" href="#">Пункт меню</a>
                                 </li>
-                                <li>
-                                    <a href="#">Пункт меню</a>
+                                <li class="menu-hid__li nav__li">
+                                    <a class="menu-hid__a" href="#">Пункт меню</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
-                        <a class="nav-a" href="#">Главная</a>
+                    <li class="nav__li">
+                        <a class="nav__a" href="#">Главная</a>
+                        <hr class="nav__hr">
                     </li>
-                    <li>
-                        <a class="nav-a" href="#">О нас</a>
+                    <li class="nav__li nav-elem">
+                        <a class="nav__a" href="#">О нас</a>
+                        <hr class="nav__hr">
                     </li>
-                    <li>
-                        <a class="nav-a" href="#">Сервис</a>
+                    <li class="nav__li nav-elem">
+                        <a class="nav__a" href="#">Сервис</a>
+                        <hr class="nav__hr">
                     </li>
-                    <li>
-                        <a class="nav-a" href="#">Портфолио</a>
+                    <li class="nav__li nav-elem">
+                        <a class="nav__a" href="#">Портфолио</a>
+                        <hr class="nav__hr">
                     </li>
-                    <li>
-                        <a class="nav-a" href="#">Контакты</a>
+                    <li class="nav__li nav-elem">
+                        <a class="nav__a" href="#">Контакты</a>
+                        <hr class="nav__hr">
                     </li>
-                    <li class="srch">
-                        <form class="flex-row" action="#" method="post">
-                            <input class="srch-inp" type="search" name="search-cite" id="sc" placeholder="Поиск по сайту">
-                            <input class="srch-but" type="image" src="img/srch.png">
+
+                    <li class="nav__li nav__srch">
+                        <hr class="nav__hr nav__hr_last">
+                        <form class="form-srch flex-row" action="#" method="post">
+                            <input class="form-srch__inp" type="search" name="search-cite" id="sc" placeholder="Поиск по сайту">
+                            <button class="form-srch__but" type="submit"></button>
                         </form>
-                        
+
                     </li>
+
                 </ul>
             </nav>
             <div class="news-login flex-row">
                 <div class="news">
-                    <h3 class="news-h3">Новости</h3>
+                    <h2 class="news__h2">Новости</h2>
                     <ul class="img-w-news flex-col">
-                        <li class="flex-row">
-                            <div class="news-image">
-                                <img src="img/img1.png" alt="" srcset="" width="75" height="75">
-                            </div>
-                            <div class="news-text flex-col">
-                                <h4 class="text-h4">Ему, безопасно по всей подзаголовок.</h4>
-                                <p class="text-info">Языкового первую запятой сих?</p>
-                            </div>
+                        <li class="img-w-news__li">
+                            <a href="#" class="img-w-news__a flex-row">
+                                <div class="img-w-news__block-image">
+                                    <div class="img-w-news__image"></div>
+                                </div>
+                                <div class="img-w-news__text">
+                                    <h1 class="img-w-news__text-h1">Ему, безопасно по всей подзаголовок.</h1>
+                                    <p class="img-w-news__text-info">Языкового первую запятой сих?</p>
+                                </div>
+                            </a>
                         </li>
-                        <hr class="hr-news">
-                        <li class="flex-row">
-                            <div class="news-image">
-                                <img src="img/img1.png" alt="" srcset="" width="75" height="75">
-                            </div>
-                            <div class="news-text">
-                                <h4 class="text-h4">Ему, безопасно по всей подзаголовок.</h4>
-                                <p class="text-info">Языкового первую запятой сих?</p>
-                            </div>
+                        <li class="img-w-news__li">
+                            <a href="#" class="img-w-news__a flex-row">
+                                <div class="img-w-news__block-image">
+                                    <div class="img-w-news__image"></div>
+                                </div>
+                                <div class="img-w-news__text">
+                                    <h1 class="img-w-news__text-h1">Ему, безопасно по всей подзаголовок.</h1>
+                                    <p class="img-w-news__text-info">Языкового первую запятой сих?</p>
+                                </div>
+                            </a>
                         </li>
-                        <hr class="hr-news">
-                        <li class="flex-row">
-                            <div class="news-image">
-                                <img src="img/img1.png" alt="" srcset="" width="75" height="75">
-                            </div>
-                            <div class="news-text">
-                                <h4 class="text-h4">Ему, безопасно по всей подзаголовок.</h4>
-                                <p class="text-info">Языкового первую запятой сих?</p>
-                            </div>
+                        <li class="img-w-news__li img-w-news__li_wo-border">
+                            <a href="#" class="img-w-news__a flex-row">
+                                <div class="img-w-news__block-image">
+                                    <div class="img-w-news__image"></div>
+                                </div>
+                                <div class="img-w-news__text">
+                                    <h1 class="img-w-news__text-h1">Ему, безопасно по всей подзаголовок.</h1>
+                                    <p class="img-w-news__text-info">Языкового первую запятой сих?</p>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="login flex-row">
                     <div class="login-default flex-col">
-                        <h3 class="login-h3">Вход</h3>
-                        <p class="login-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
-                        <form id="entry" class="login-form" action="" method="post">
-                                <p class="login-login">Логин</p>
-                                <input class="login-form-input" name="login" type="text">
-                                <p class="login-pas">Пароль</p>
-                                <input class="login-form-input" type="password" name="pas" id="">
-                                <label class="login-check-img" for="check1"><input class="login-check" type="checkbox" name="" id="check1"><span class="login-check-text">запомнить меня</span></label> 
-                                <button form="entry" class="login-entry" type="submit" value="ВХОД">ВХОД</button>
+                        <h2 class="login__h2">Вход</h2>
+                        <p class="login__text-d">Далеко-далеко за словесными горами в стране, гласных и согласных живут
+                            рыбные тексты.</p>
+                        <form class="login-form login-form" id="entry" action="#" method="post">
+                            <p class="login-form__login-pas">Логин</p>
+                            <input class="login-form__input" name="login" type="text">
+                            <p class="login-form__login-pas">Пароль</p>
+                            <input class="login-form__input" type="password" name="pas" id="input-pas">
+
+                            <input class="login-default__check" type="checkbox" id="check1">
+                            <label class="login-form__check-img" for="check1"><span class="login-default__check-text">запомнить
+                                    меня</span></label>
+
+                            <button class="login-form__entry" form="entry" type="submit" value="ВХОД">ВХОД</button>
                         </form>
                     </div>
-                    <hr class="hr-login">
+                    <hr class="login__hr">
                     <div class="login-social flex-col">
-                        <h3 class="login-h3">Вход через соцсети</h3>
-                        <p class="login-text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
-                        <button class="login-social-button facebook">Войти через facebook</button>
-                        <button class="login-social-button twitter">Войти через twitter</button>
-                        <button class="login-social-button google">Войти через google</button>
+                        <h2 class="login__h2">Вход через соцсети</h2>
+                        <p class="login__text-s">Далеко-далеко за словесными горами в стране, гласных и согласных живут
+                            рыбные</p>
+                        <div class="login-social-bl-but">
+                            <button class="login-social-bl-but__button login-social-bl-but__button_facebook">Войти
+                                через facebook</button>
+                            <button class="login-social-bl-but__button login-social-bl-but__button_twitter">Войти
+                                через twitter</button>
+                            <button class="login-social-bl-but__button login-social-bl-but__button_google">Войти
+                                через google</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
         <section class="some-sec">
             <div class="some-div">
-                <label class="close" for="close"><input type="button" class="close-button" id="close"></label>
-                
-                <h3 class="some-h3">Некий заголовок какого-то блока</h3>
-                <p class="some-text">Далеко-далеко за словесными горами в стране, <span class="red-text">гласных и согласных живут</span> рыбные тексты. Реторический, знаках, не диких то залетают вдали текстами подзаголовок имеет города назад собрал океана если сих! Океана, текстов семантика безопасную вершину снова. Послушавшись, скатился щеке знаках курсивных своих города запятой свою грамматики </p>
-                <form class="some-form flex-row" method="post">
-                    <button class="agree">Согласен</button>
-                    <button class="cancel">Отмена</button>
+                <label class="some-sec__close" for="close"><button class="some-sec__close-button" type="submit" id="close"></button></label>
+
+                <h3 class="some-div__h3">Некий заголовок какого-то блока</h3>
+                <p class="some-div__text">Далеко-далеко за словесными горами в стране, <span class="some-div__red-text">гласных
+                        и согласных живут</span> рыбные тексты. Реторический, знаках, не диких то залетают вдали
+                    текстами подзаголовок имеет города назад собрал океана если сих! Океана, текстов семантика
+                    безопасную вершину снова. Послушавшись, скатился щеке знаках курсивных своих города запятой свою
+                    грамматики </p>
+                <form class="some-form flex-row" method="post" action="#">
+                    <button class="some-form__button some-form__button_agree">СОГЛАСЕН</button>
+                    <button class="some-form__button some-form__button_cancel">ОТМЕНА</button>
                 </form>
             </div>
         </section>
         <footer class="footer">
             <div class="flex-row">
                 <div class="about">
-                    <h3 class="about-h3">О нас</h3>
-                    <p class="about-text">Парадигматическая, гор, речью эта лучше первуб оксмокс ведущим вопрос строчкая безопасную lorem рекламных рукописи даже своего жаренные буквоград не букв?</p>
+                    <h3 class="about__h3">О нас</h3>
+                    <p class="about__text">Парадигматическая, гор, речью эта лучше первую оксмокс ведущим
+                        вопрос строчка безопасную lorem рекламных рукописи даже своего жаренные буквоград не букв?</p>
                 </div>
                 <div class="puncts flex-row">
-                    <ul class="puncts-ul flex-col">
-                        <p>Первый пункт</p>
-                        <li>Далеко-далеко</li>
-                        <li>Рыбными</li>
-                        <li>Повстречался</li>
-                        <li>Решила</li>
-                        <li>Страна</li>
+                    <ul class="puncts__ul flex-col">
+
+                        <li class="puncts__li-grey"><a href="#" class="puncts__a-grey">Первый пункт</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Далеко-далеко</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Рыбными</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Повстречался</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Решила</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Страна</a></li>
                     </ul>
-                    <ul class="puncts-ul flex-col">
-                        <p>Категории</p>
-                        <li>Далеко-далеко</li>
-                        <li>Рыбными</li>
-                        <li>Повстречался</li>
-                        <li>Решила</li>
-                        <li>Страна</li>
+                    <ul class="puncts__ul flex-col">
+
+                        <li class="puncts__li-grey"><a href="#" class="puncts__a-grey">Категории</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Далеко-далеко</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Рыбными</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Повстречался</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Решила</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Страна</a></li>
                     </ul>
-                    <ul class="puncts-ul flex-col">
-                        <p>Еще меню</p>
-                        <li>Далеко-далеко</li>
-                        <li>Рыбными</li>
-                        <li>Повстречался</li>
-                        <li>Решила</li>
-                        <li>Страна</li>
+                    <ul class="puncts__ul flex-col">
+
+                        <li class="puncts__li-grey"><a href="#" class="puncts__a-grey">Еще меню</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Далеко-далеко</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Рыбными</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Повстречался</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Решила</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Страна</a></li>
                     </ul>
-                    <ul class="puncts-ul flex-col">
-                        <p>И еще пункт</p>
-                        <li>Далеко-далеко</li>
-                        <li>Рыбными</li>
-                        <li>Повстречался</li>
-                        <li>Решила</li>
-                        <li>Страна</li>
+                    <ul class="puncts__ul flex-col">
+
+                        <li class="puncts__li-grey"><a href="#" class="puncts__a-grey">И еще пункт</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Далеко-далеко</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Рыбными</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Повстречался</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Решила</a></li>
+                        <li class="puncts__li-white"><a href="#" class="puncts__a-white">Страна</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
     </div>
+    <div class="inner flex-row aw">
+        <div class="alert flex-row">
+            <p class="alert__wait">Подождите, загружается страница ...</p>
+        </div>
+    </div>
+    <div class="inner flex-row aw">
+        <div class="entry-w-social flex-col">
+            <label class="entry-w-social__close" for="close1"><button class="entry-w-social__close-button" type="submit"
+                    id="close1"></button></label>
+            <h2 class="entry-w-social__h2">a</h2>
+            <form class="login-form login-form_pad-left flex-col" id="entry-s" action="#" method="post">
+                <p class="login-form__login-pas">Логин</p>
+                <input class="login-form__input" name="login" type="text">
+                <p class="login-form__login-pas">Пароль</p>
+                <input class="login-form__input" type="password" name="pas">
+
+                <input class="login-default__check" type="checkbox" id="check2">
+                <label class="login-form__check-img" for="check2"><span class="login-default__check-text">запомнить
+                        меня</span></label>
+
+                <button class="login-form__entry" form="entry" type="submit" value="ВХОД">ВХОД</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
+
 </html>

@@ -1,0 +1,36 @@
+.bg-close {
+    width: 23px; height: 23px;
+    background: url('css_sprites.png') -140px -93px;
+}
+.bg-fb {
+    width: 45px; height: 45px;
+    background: url('css_sprites.png') -10px -93px;
+}
+.bg-gl {
+    width: 45px; height: 45px;
+    background: url('css_sprites.png') -75px -93px;
+}
+.bg-img1 {
+    width: 70px; height: 61px;
+    background: url('css_sprites.png') -100px -10px;
+}
+.bg-nav_rec {
+    width: 70px; height: 63px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.bg-srch {
+    width: 24px; height: 25px;
+    background: url('css_sprites.png') -190px -75px;
+}
+.bg-tick_empty {
+    width: 20px; height: 20px;
+    background: url('css_sprites.png') -10px -158px;
+}
+.bg-tw {
+    width: 45px; height: 45px;
+    background: url('css_sprites.png') -190px -10px;
+}
+.bg-tick {
+    width: 20px; height: 20px;
+    background: url('css_sprites.png') -50px -158px;
+}
